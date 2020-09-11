@@ -3,8 +3,9 @@ import { Helmet } from 'react-helmet';
 
 const Head = () => {
   return (
-    <Helmet title="kokote">
-      <meta name="description" content="voe" />
+    <Helmet title="PalmMedia">
+      <meta name="description" content="Digitální agentura PalmMedia" />
+      <meta name="format-detection" content="telephone=no" />
     </Helmet>
   );
 }

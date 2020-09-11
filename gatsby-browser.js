@@ -65,6 +65,20 @@ const GlobalStyles = createGlobalStyle`
   a {
     display: block;
   }
+
+  a[x-apple-data-detectors] {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-size: inherit !important;
+    font-family: inherit !important;
+    font-weight: inherit !important;
+    line-height: inherit !important;
+  }
+
+  a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+  }
 `;
 
 export const wrapRootElement = ({ element }) => (

@@ -68,7 +68,7 @@ const KouleOuter = styled.div`
     width: 167px;
     height: 167px;
     position: absolute;
-    top: 104px;
+    top: 80px;
     right: -50px;
   }
 `;

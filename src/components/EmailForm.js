@@ -19,6 +19,7 @@ const EmailFormInner = styled.form`
     padding: 10px 15px;
     width: calc(100% - 30px);
     margin-bottom: 20px;
+    border-radius: 0;
   }
 
   button {
