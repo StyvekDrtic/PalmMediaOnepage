@@ -7,6 +7,10 @@ const HeaderContainer = styled.div`
   width: calc(100% - 50px);
   margin: 0 auto;
   position: relative;
+
+  @media (min-width: 550px) {
+    width: calc(100% - 100px);
+  }
 `;
 
 const Logo = styled(Link)`

@@ -7,6 +7,7 @@ const EmailFormInner = styled.form`
   padding: 0;
   display: relative;
   margin-bottom: 170px;
+  max-width: 550px;
 
   input {
     font-family: Avenir-Medium;

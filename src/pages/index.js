@@ -16,13 +16,18 @@ import agency from '../assets/agency.png';
 
 const Jumbotron = styled.section`
   background: #fff;
-  padding-top: 30px;
-  padding-bottom: 70px;
+  padding-top: 20px;
+  padding-bottom: 50px;
 
   .jumboWrapper {
     max-width: 1200px;
     margin: 0 auto;
     position: relative;
+  }
+
+  @media (min-width: 410px) {
+    padding-top: 30px;
+    padding-bottom: 70px;
   }
 `;
 
@@ -32,16 +37,23 @@ const JumboHeading = styled.h1`
   font-size: 43px;
   width: 200px;
   margin-left: 25px;
-  margin-top: 45px;
+  margin-top: 35px;
 
   @media (min-width: 410px) {
     font-size: 55px;
     width: 250px;
+    margin-top: 45px;
   }
 
   @media (min-width: 550px) {
     font-size: 55px;
-    width: 400px;
+    width: 280px;
+    margin-left: 50px;
+  }
+
+  @media (min-width: 900px) {
+    font-size: 70px;
+    width: 500px;
   }
 `;
 
@@ -57,6 +69,11 @@ const JumboP = styled.p`
 
   @media (min-width: 550px) {
     width: calc(100% - 100px);
+    margin-left: 50px;
+  }
+
+  @media (min-width: 900px) {
+    max-width: none;
   }
 `;
 
@@ -75,6 +92,10 @@ const Tlacitko = styled(Link)`
   text-decoration: none;
   margin-left: 25px;
   margin-bottom: 30px;
+
+  @media (min-width: 550px) {
+    margin-left: 50px;
+  }
 `;
 
 const Nostalgie = styled.div`
@@ -85,15 +106,29 @@ const Nostalgie = styled.div`
   padding-top: 5px;
   width: calc(100% - 50px);
   margin-left: 25px;
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 0px;
+
+  @media (min-width: 410px) {
+    margin-top: 40px;
+  }
+
+  @media (min-width: 550px) {
+    width: calc(100% - 100px);
+    margin-left: 50px;
+  }
 `;
 
 const Aktivity = styled.section`
   margin: 0 auto;
-  margin-top: 80px;
+  padding-top: 80px;
   max-width: 600px;
   position: relative;
+
+  @media (min-width: 1000px) {
+    max-width: 1000px;
+    text-align: center;
+  }
 `;
 
 export default function Home() {
@@ -109,9 +144,9 @@ export default function Home() {
       <Jumbotron>
         <div className="jumboWrapper">
           <Header />
-          <JumboHeading daata-sal="slide-down" daata-sal-duration="500">the future is now</JumboHeading>
+          <JumboHeading data-sal="slide-down" data-sal-duration="500">the future is now</JumboHeading>
           <Koule />
-          <JumboP dataa-sal="fade" dataa-sal-duration="2000">— staráme se především o vlastní projekty, rádi ale pomůžeme i Vám.</JumboP>
+          <JumboP data-sal="fade" data-sal-duration="2000">— staráme se především o vlastní projekty, rádi ale pomůžeme i Vám.</JumboP>
           <Tlacitko to="#aktivity">naše aktivity</Tlacitko>
           <Nostalgie>‘17 - 20©</Nostalgie>
         </div>

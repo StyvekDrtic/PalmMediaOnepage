@@ -9,6 +9,14 @@ const AktivitaInner = styled.div`
   padding-bottom: 35px;
   margin-bottom: 90px;
 
+  @media (min-width: 1000px) {
+    display: inline-block;
+    max-width: 400px;
+    text-align: left;
+    margin: 0 50px;
+    vertical-align: top;
+  }
+
   h2 {
     font-family: Avenir-Black;
     font-size: 20px;
@@ -51,6 +59,12 @@ const AktivitaInner = styled.div`
   ${({ posledni }) => posledni && `
     border-bottom: none;
     margin-bottom: 0px;
+
+    @media (min-width: 1000px) {
+      float: left;
+      margin-top: 90px;
+      margin-bottom: 100px;
+    }
   `}
 `;
 

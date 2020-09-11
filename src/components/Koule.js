@@ -68,8 +68,24 @@ const KouleOuter = styled.div`
     width: 167px;
     height: 167px;
     position: absolute;
-    top: 80px;
+    top: 70px;
     right: -50px;
+
+    @media (min-width: 410px) {
+      top: 80px;
+    }
+
+    @media (min-width: 550px) {
+      width: 230px;
+      height: 230px;
+    }
+
+    @media (min-width: 730px) {
+      width: 300px;
+      height: 300px;
+      top: 80px;
+      right: 50px;
+    }
   }
 `;
 
