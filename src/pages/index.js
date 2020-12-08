@@ -161,7 +161,6 @@ export default function Home() {
         </Aktivita>
         <Aktivita nadpis="Moje Závěť" img={zavet}>
           <p>Vytvořte si vlastní závěť do 15 minut.<br/>Jednoduše. Přes internet. Bez notáře.</p>
-          <a href="https://mojezavet.cz">mojezavet.cz</a>
         </Aktivita>
         <Aktivita posledni nadpis="AGENCY" img={agency}>
           <p>Specializujeme se na tvorbu marketingových kampaní na sociálních sítích a celkovou optimalizaci Vašeho sales funnelu.<br/><br/>V minulosti jsme spolupracovali se značkami jako je Queens, XTV, nebo Dennis Rodman.<br/><br/>Zajímá Vás více? Pojďme se spojit.</p>
