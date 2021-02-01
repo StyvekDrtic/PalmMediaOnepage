@@ -61,7 +61,6 @@ const AktivitaInner = styled.div`
     margin-bottom: 0px;
 
     @media (min-width: 1000px) {
-      float: left;
       margin-top: 90px;
       margin-bottom: 100px;
     }

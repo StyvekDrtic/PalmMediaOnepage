@@ -72,20 +72,22 @@ const Footer = () => {
       <div className="bublina"></div>
       <h2>Kontakt</h2>
       <div className="footerWrap">
-        <div className="bold">PalmMedia s.r.o.</div>
+        <div className="bold">Goodbye s.r.o.</div>
         <div>IČO 08319588</div>
         <div>Na Kopci 164,</div>
         <div>251 62 Svojetice</div>
         <br />
         <div>Národní 135/14 Prague 110 00</div>
         <br />
-        <div className="meh"><a href="tel:605176305"className="bold">605 176 305</a> — Agency, Moje Závěť</div>
+        <div className="meh"><a href="tel:605176305"className="bold">702 009 441</a> — Goodbye</div>
+        <div className="meh"><a href="tel:605176305"className="bold">605 176 305</a> — Agency</div>
         <div className="meh"><a href="tel:732400851"className="bold">732 400 851</a> — Najdi Mazlíčka</div>
         <div className="meh"><a href="tel:+49 89 55209469"className="bold">+49 89 55209469</a> — DE</div>
         <div className="meh"><a href="tel:+41 31 508 76 26"className="bold">+41 31 508 76 26</a> — CH</div>
         <div className="meh"><a href="tel:+43 720 022447"className="bold">+43 720 022447</a> — AT</div>
         <br />
         <div className="meh">jiri@palmmedia.cz</div>
+        <div className="meh">podpora@goodbye.cz</div>
         <div className="meh">podpora@najdimazlicka.cz</div>
         <div className="meh">support@findedeinhaustier.de</div>
         <div className="meh">podpora@mojezavet.cz</div>

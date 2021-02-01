@@ -12,7 +12,7 @@ import Head from '../components/Head';
 import zavet from '../assets/zavet.png';
 import mazlicek from '../assets/mazlicek.png';
 import agency from '../assets/agency.png';
-
+import goodbye from '../assets/goodbye.png';
 
 const Jumbotron = styled.section`
   background: #fff;
@@ -148,19 +148,24 @@ export default function Home() {
           <Koule />
           <JumboP data-sal="fade" data-sal-duration="2000">— staráme se především o vlastní projekty, rádi ale pomůžeme i Vám.</JumboP>
           <Tlacitko to="#aktivity">naše aktivity</Tlacitko>
-          <Nostalgie>‘17 - 20©</Nostalgie>
+          <Nostalgie>‘17 - 21©</Nostalgie>
         </div>
       </Jumbotron>
       <Aktivity id="aktivity">
+        <Aktivita nadpis="Goodbye.cz" img={goodbye}>
+          <p>Pomáháme lidem řešit smrt jednoduše a bez zbytečných starostí</p>
+          <a href="https://goodbye.cz">goodbye.cz</a>
+        </Aktivita>
         <Aktivita nadpis="Najdi mazlíčka" img={mazlicek}>
           <p>Pomáháme lidem hledat ztracená zvířata s pomocí reklam na sociálních sítích. Do pár hodin tak o ztrátě informujeme tisíce lidí v oblasti, kde se zvíře pohybuje.</p>
-          <a href="http://najdimazlicka.cz">najdimazlicka.cz</a>
-          <a href="http://findedeinhaustier.de">findedeinhaustier.de</a>
-          <a href="http://findedeinhaustier.at">findedeinhaustier.at</a>
-          <a href="http://findedeinhaustier.ch">findedeinhaustier.ch</a>
+          <a href="https://najdimazlicka.cz">najdimazlicka.cz</a>
+          <a href="https://findedeinhaustier.de">findedeinhaustier.de</a>
+          <a href="https://findedeinhaustier.at">findedeinhaustier.at</a>
+          <a href="https://findedeinhaustier.ch">findedeinhaustier.ch</a>
         </Aktivita>
         <Aktivita nadpis="Moje Závěť" img={zavet}>
           <p>Vytvořte si vlastní závěť do 15 minut.<br/>Jednoduše. Přes internet. Bez notáře.</p>
+          <a href="https://mojezavet.cz">mojezavet.cz</a>
         </Aktivita>
         <Aktivita posledni nadpis="AGENCY" img={agency}>
           <p>Specializujeme se na tvorbu marketingových kampaní na sociálních sítích a celkovou optimalizaci Vašeho sales funnelu.<br/><br/>V minulosti jsme spolupracovali se značkami jako je Queens, XTV, nebo Dennis Rodman.<br/><br/>Zajímá Vás více? Pojďme se spojit.</p>
